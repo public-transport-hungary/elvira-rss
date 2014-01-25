@@ -1,0 +1,18 @@
+doctype xml
+rss(version="2.0")
+  channel
+    title!= title
+    link!= url
+    description!= tagline
+    lastBuildDate!= date
+    pubDate!= pubDate
+    generator!= generator
+    managingEditor!= managingEditor
+    webMaster!= webMaster
+    - each post in items
+      item
+        title= post.title
+        link= post.link
+        description= post.description
+        guid= post.guid
+        pubDate= post.pubDate

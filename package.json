@@ -1,0 +1,31 @@
+{
+  "name": "elvira-rss",
+  "version": "0.0.0",
+  "description": "elvira-rss ==========",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/public-transport-hungary/elvira-rss.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/public-transport-hungary/elvira-rss/issues"
+  },
+  "dependencies": {
+    "debug": "~0.7.4",
+    "nconf": "~0.6.9",
+    "winston": "~0.7.2",
+    "request": "~2.33.0",
+    "winston-loggly": "~1.0.1",
+    "jade": "~1.1.5",
+    "restify": "~2.6.1",
+    "bunyan": "~0.22.1",
+    "godot": "~0.7.5",
+    "libxmljs": "~0.8.1",
+    "universal-analytics": "~0.3.2"
+  }
+}
