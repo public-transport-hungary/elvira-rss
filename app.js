@@ -77,6 +77,7 @@ var rssHandler = function rssHanlder( req, res, next ){
         return next( err );
       }
       if( !isMenetrend ){
+        next();
         return;
       }
       res.contentType = "text/xml";
