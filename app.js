@@ -68,9 +68,9 @@ var render = function( file, locals, next, res ){
 };
 
 var rssHandler = function rssHanlder( req, res, next ){
-  var isMenetrend = ( /iMenetrend/ ).test( req.params.appname );
+  var isMenetrend = false; //( /iMenetrend/ ).test( req.params.appname );
   var r = request({
-    url: "http://mav-start.hu/rss.php",
+    url: "http://www.mavcsoport.hu/mavinform/rss.xml",
     encoding: null,
   }, function ( err, response, body ){
       if( err ){
